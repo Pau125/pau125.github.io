@@ -1,0 +1,185 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: Amiri, arial;
+    box-sizing: border-box;
+
+}
+
+div {
+    text-align: justify;
+    padding: 15px;
+
+}
+
+IMG.winogr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    
+}
+
+
+
+p {
+    font-weight: bold;
+}
+
+#opis {
+    padding: 15px 125px;
+    font-size: 15px;
+}
+
+#przycisk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 15px 100px 15px;
+}
+
+body {
+    background-color: #990033;
+}
+
+#wrapper {
+    max-width: 1200px;
+    min-height: 3600px;
+    margin: 0 auto;
+    background-color: silver;
+    
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    border: thick double silver;
+}
+
+.centr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.halfcol {
+    max-width: 600px;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+nav {
+    background-color: silver;
+    
+}
+
+
+a.menu {
+    display: inline-block;
+    width: 25%;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
+    
+   
+    
+}
+
+a.menu:hover {
+    background-color: #990033;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #990033;
+}
+
+
+article {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    height: 500px;
+}
+
+article h1 {
+    font-size: 30px;
+    text-align:center;
+    margin: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #CC9966;
+        
+}
+
+img.left {
+    float:left;
+    padding: 0px 10px 10px 0;
+    width: 20%;
+    border-radius: 50% 30%;
+}
+
+article p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+footer {
+    height: 40px;
+    background-color: silver;
+    color: black;
+    text-align: center;
+    
+    
+}
+
+.formField {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 3px 0 10px 0;
+    padding: 3px 0
+}
+
+textarea.formField {
+    width: 300px;
+    height: 70px
+}
+
+#sendBtn {
+    cursor: pointer;
+    background: #ccc;
+    background: linear-gradient(#ddd 0, #eee 100%);
+    border: 1px solid #ccc;
+    line-height: 32px;
+    font-size: 14px;
+    padding: 0 25px;
+    border-radius: 3px
+}
+
+#send_form_status {
+    border: 1px dashed #ccc;
+    display: none;
+    padding: 0 10px;
+    margin: 10px 0
+}
+
+.status_ok {
+    color: #060
+}
+
+.status_err {
+    color: #F00
+}
